@@ -1,7 +1,7 @@
 # F3_Module_Test
 # use this deployed link : https://misterkumar.github.io/F3_Module_Test/
 
-related inforamtion 
+# related inforamtion 
 Get user's IP Address using js scripts, refer to the gfg link given. - https://www.geeksforgeeks.org/how-to-get-client-ip-address-using-javascript/
 Once done, hit an api request at https://ipinfo.io/${IP}/geo , where ${IP} will be the IP of the user.
 Get the IP Address on the load of the page, where as get the information from the API on the click of the button.
