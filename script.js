@@ -77,8 +77,10 @@ getButton.addEventListener("click",getDetails);
 
         const footer_info= document.createElement("div")
         footer_info.className="footer_info";
-        let ts = 1581338765000;
-        let timeZone = new Date(ts).toLocaleString("en-US", { timeZone: `${result.timezone}` });
+        const ts = Date.now();
+  const timeZone = new Date(ts).toLocaleString("en-US", {
+    timeZone: result.timezone,
+  });
         footer_info.innerHTML=`
         <div class="foot_info">Time Zone:  &nbsp${result.timezone}</div>
             <div class="foot_info">Date And Time: &nbsp${timeZone}</div>
@@ -135,3 +137,4 @@ getButton.addEventListener("click",getDetails);
           }
         });
       }
+      
